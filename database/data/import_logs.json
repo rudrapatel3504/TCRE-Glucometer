@@ -1,0 +1,90 @@
+[
+  {
+    "importDate": "2026-07-30",
+    "importTime": "23:51:51",
+    "deviceName": "TCRE Mega 2560",
+    "measurementsImported": 50,
+    "duplicatesIgnored": 0,
+    "importDuration": "3.7s"
+  },
+  {
+    "importDate": "2026-07-30",
+    "importTime": "23:52:50",
+    "deviceName": "TCRE Mega 2560",
+    "measurementsImported": 24,
+    "duplicatesIgnored": 0,
+    "importDuration": "1.5s"
+  },
+  {
+    "importDate": "2026-07-30",
+    "importTime": "23:57:01",
+    "deviceName": "TCRE Mega 2560",
+    "measurementsImported": 0,
+    "duplicatesIgnored": 24,
+    "importDuration": "2.3s"
+  },
+  {
+    "importDate": "2026-07-30",
+    "importTime": "23:59:21",
+    "deviceName": "TCRE Mega 2560",
+    "measurementsImported": 0,
+    "duplicatesIgnored": 50,
+    "importDuration": "3.7s"
+  },
+  {
+    "importDate": "2026-07-30",
+    "importTime": "00:02:55",
+    "deviceName": "TCRE Mega 2560",
+    "measurementsImported": 0,
+    "duplicatesIgnored": 50,
+    "importDuration": "3.5s"
+  },
+  {
+    "importDate": "2026-07-30",
+    "importTime": "00:13:19",
+    "deviceName": "TCRE Mega 2560",
+    "measurementsImported": 107,
+    "duplicatesIgnored": 0,
+    "importDuration": "5.5s"
+  },
+  {
+    "importDate": "2026-07-30",
+    "importTime": "00:21:42",
+    "deviceName": "TCRE Mega 2560",
+    "measurementsImported": 100,
+    "duplicatesIgnored": 0,
+    "importDuration": "5.7s"
+  },
+  {
+    "importDate": "2026-07-30",
+    "importTime": "00:22:03",
+    "deviceName": "TCRE Mega 2560",
+    "measurementsImported": 100,
+    "duplicatesIgnored": 0,
+    "importDuration": "4.9s"
+  },
+  {
+    "importDate": "2026-07-30",
+    "importTime": "00:22:25",
+    "deviceName": "TCRE Mega 2560",
+    "measurementsImported": 100,
+    "duplicatesIgnored": 0,
+    "importDuration": "3.6s"
+  },
+  {
+    "importDate": "2026-08-03",
+    "importTime": "16:05:12",
+    "deviceName": "TCRE Mega 2560",
+    "measurementsImported": 100,
+    "duplicatesIgnored": 0,
+    "importDuration": "3.3s"
+  },
+  {
+    "importDate": "2026-08-03",
+    "importTime": "16:06:13",
+    "deviceName": "TCRE Mega 2560",
+    "measurementsImported": 100,
+    "duplicatesIgnored": 0,
+    "importDuration": "4.1s"
+  }
+]

@@ -1,0 +1,5 @@
+MeasurementID,PatientID,Name,Age,Sex,Year,Month,Day,Hour,Minute,Second,Glucose
+1,1,John Doe,45,M,2026,7,30,20,15,0,125
+2,1,John Doe,45,M,2026,7,31,8,30,5,118
+3,2,Alice,32,F,2026,7,31,10,15,30,98
+4,3,Bob,51,M,2026,8,1,9,45,12,140

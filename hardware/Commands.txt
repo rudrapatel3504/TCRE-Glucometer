@@ -1,0 +1,12 @@
+| Command    | Example                                       | Purpose                      |
+| ---------- | --------------------------------------------- | ---------------------------- |
+| `HELP`     | `HELP`                                        | List commands                |
+| `INFO`     | `INFO`                                        | Device information           |
+| `VERSION`  | `VERSION`                                     | Firmware version             |
+| `COUNT`    | `COUNT`                                       | Number of records            |
+| `CLEAR`    | `CLEAR`                                       | Delete all records           |
+| `STORE`    | `STORE,1,John Doe,45,M,2026,7,30,20,15,0,125` | Store record                 |
+| `GET_DATA` | `GET_DATA`                                    | Dump every record            |
+| `GET,2`    | `GET,2`                                       | Read record #2               |
+| `DELETE,2` | `DELETE,2`                                    | Delete record #2             |
+| `FORMAT`   | `FORMAT`                                      | Completely initialize EEPROM |

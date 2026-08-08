@@ -1,0 +1,1228 @@
+[
+  {
+    "patientId": "1",
+    "name": "Father",
+    "age": 48,
+    "sex": "M",
+    "measurements": [
+      {
+        "date": "2026-08-11T07:30:00.000Z",
+        "glucose": 144,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-11T19:30:00.000Z",
+        "glucose": 157,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-12T07:30:00.000Z",
+        "glucose": 154,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-12T19:30:00.000Z",
+        "glucose": 167,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-13T07:30:00.000Z",
+        "glucose": 164,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-13T19:30:00.000Z",
+        "glucose": 186,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-14T07:30:00.000Z",
+        "glucose": 184,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-14T19:30:00.000Z",
+        "glucose": 197,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-15T07:30:00.000Z",
+        "glucose": 199,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-15T19:30:00.000Z",
+        "glucose": 214,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-16T07:30:00.000Z",
+        "glucose": 211,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-16T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-17T07:30:00.000Z",
+        "glucose": 217,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-17T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-18T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-18T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-19T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-19T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-20T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-20T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-21T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-21T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-22T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-22T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-23T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-23T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-24T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-24T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-25T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-25T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-26T07:30:00.000Z",
+        "glucose": 219,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-26T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-27T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-27T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-28T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-28T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-29T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-29T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-30T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-30T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-31T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-31T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-01T07:30:00.000Z",
+        "glucose": 217,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-01T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-02T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-02T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-03T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-03T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-04T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-04T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-05T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-05T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-06T07:30:00.000Z",
+        "glucose": 217,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-06T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-07T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-07T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-08T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-08T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-09T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-09T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-10T07:30:00.000Z",
+        "glucose": 219,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-10T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-11T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-11T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-12T07:30:00.000Z",
+        "glucose": 219,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-12T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-13T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-13T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-14T07:30:00.000Z",
+        "glucose": 217,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-14T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-15T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-15T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-16T07:30:00.000Z",
+        "glucose": 217,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-16T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-17T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-17T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-18T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-18T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-19T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-19T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-20T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-20T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-21T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-21T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-22T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-22T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-23T07:30:00.000Z",
+        "glucose": 217,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-23T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-24T07:30:00.000Z",
+        "glucose": 219,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-24T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-25T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-25T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-26T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-26T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-27T07:30:00.000Z",
+        "glucose": 219,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-27T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-28T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-28T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-29T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-29T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      }
+    ],
+    "firstMeasurementDate": "2026-08-11T07:30:00.000Z",
+    "latestMeasurementDate": "2026-09-29T19:30:00.000Z",
+    "latestGlucose": 220,
+    "sugarYesCount": 50,
+    "sugarNoCount": 50
+  },
+  {
+    "patientId": "2",
+    "name": "Mother",
+    "age": 45,
+    "sex": "F",
+    "measurements": [
+      {
+        "date": "2026-08-11T07:30:00.000Z",
+        "glucose": 113,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-11T19:30:00.000Z",
+        "glucose": 127,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-12T07:30:00.000Z",
+        "glucose": 126,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-12T19:30:00.000Z",
+        "glucose": 139,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-13T07:30:00.000Z",
+        "glucose": 137,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-13T19:30:00.000Z",
+        "glucose": 147,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-14T07:30:00.000Z",
+        "glucose": 143,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-14T19:30:00.000Z",
+        "glucose": 156,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-15T07:30:00.000Z",
+        "glucose": 153,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-15T19:30:00.000Z",
+        "glucose": 165,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-16T07:30:00.000Z",
+        "glucose": 164,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-16T19:30:00.000Z",
+        "glucose": 173,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-17T07:30:00.000Z",
+        "glucose": 173,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-17T19:30:00.000Z",
+        "glucose": 187,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-18T07:30:00.000Z",
+        "glucose": 189,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-18T19:30:00.000Z",
+        "glucose": 202,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-19T07:30:00.000Z",
+        "glucose": 198,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-19T19:30:00.000Z",
+        "glucose": 206,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-20T07:30:00.000Z",
+        "glucose": 207,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-20T19:30:00.000Z",
+        "glucose": 216,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-21T07:30:00.000Z",
+        "glucose": 211,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-21T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-22T07:30:00.000Z",
+        "glucose": 215,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-22T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-23T07:30:00.000Z",
+        "glucose": 216,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-23T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-24T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-24T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-25T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-25T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-26T07:30:00.000Z",
+        "glucose": 219,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-26T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-27T07:30:00.000Z",
+        "glucose": 216,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-27T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-28T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-28T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-29T07:30:00.000Z",
+        "glucose": 216,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-29T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-30T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-30T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-08-31T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-08-31T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-01T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-01T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-02T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-02T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-03T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-03T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-04T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-04T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-05T07:30:00.000Z",
+        "glucose": 218,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-05T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-06T07:30:00.000Z",
+        "glucose": 215,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-06T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-07T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-07T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-08T07:30:00.000Z",
+        "glucose": 217,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-08T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-09T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-09T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-10T07:30:00.000Z",
+        "glucose": 217,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-10T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-11T07:30:00.000Z",
+        "glucose": 215,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-11T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-12T07:30:00.000Z",
+        "glucose": 217,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-12T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-13T07:30:00.000Z",
+        "glucose": 216,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-13T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-14T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-14T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-15T07:30:00.000Z",
+        "glucose": 215,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-15T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-16T07:30:00.000Z",
+        "glucose": 215,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-16T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-17T07:30:00.000Z",
+        "glucose": 216,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-17T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-18T07:30:00.000Z",
+        "glucose": 217,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-18T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-19T07:30:00.000Z",
+        "glucose": 215,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-19T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-20T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-20T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-21T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-21T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-22T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-22T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-23T07:30:00.000Z",
+        "glucose": 219,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-23T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-24T07:30:00.000Z",
+        "glucose": 219,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-24T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-25T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-25T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-26T07:30:00.000Z",
+        "glucose": 217,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-26T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-27T07:30:00.000Z",
+        "glucose": 216,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-27T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-28T07:30:00.000Z",
+        "glucose": 219,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-28T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      },
+      {
+        "date": "2026-09-29T07:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "NO"
+      },
+      {
+        "date": "2026-09-29T19:30:00.000Z",
+        "glucose": 220,
+        "source": "csv_upload",
+        "consumedSugarLast6Hours": "YES"
+      }
+    ],
+    "firstMeasurementDate": "2026-08-11T07:30:00.000Z",
+    "latestMeasurementDate": "2026-09-29T19:30:00.000Z",
+    "latestGlucose": 220,
+    "sugarYesCount": 50,
+    "sugarNoCount": 50
+  }
+]

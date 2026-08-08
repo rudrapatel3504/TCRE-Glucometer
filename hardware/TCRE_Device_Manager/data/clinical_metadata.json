@@ -1,0 +1,1694 @@
+{
+    "5_Michael Brown_28_M_2026_7_30_7_30_0_84": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Alice Smith_32_F_2026_7_30_7_45_0_88": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "8_Olivia Taylor_41_F_2026_7_30_7_50_0_94": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_John Doe_45_M_2026_7_30_8_0_0_92": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "7_David Miller_67_M_2026_7_30_8_0_0_181": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "10_Charlotte Thomas_36_F_2026_7_30_8_5_0_89": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "9_James Anderson_56_M_2026_7_30_8_10_0_155": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Emma Wilson_60_F_2026_7_30_8_15_5_172": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "6_Sophia Davis_39_F_2026_7_30_8_20_0_101": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Bob Johnson_51_M_2026_7_30_9_0_0_148": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_John Doe_45_M_2026_7_30_13_15_20_138": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "8_Olivia Taylor_41_F_2026_7_30_13_45_0_132": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "10_Charlotte Thomas_36_F_2026_7_30_14_10_0_126": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Alice Smith_32_F_2026_7_30_14_30_15_121": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "6_Sophia Davis_39_F_2026_7_30_15_50_30_145": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "5_Michael Brown_28_M_2026_7_30_21_15_30_115": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "5_Michael Brown_28_M_2026_7_31_7_35_0_86": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "8_Olivia Taylor_41_F_2026_7_31_7_55_0_97": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Alice Smith_32_F_2026_7_31_8_0_0_90": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "7_David Miller_67_M_2026_7_31_8_0_0_176": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "10_Charlotte Thomas_36_F_2026_7_31_8_5_0_91": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "9_James Anderson_56_M_2026_7_31_8_10_0_149": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_John Doe_45_M_2026_7_31_8_10_15_96": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Emma Wilson_60_F_2026_7_31_8_15_5_165": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "6_Sophia Davis_39_F_2026_7_31_8_20_0_104": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Bob Johnson_51_M_2026_7_31_9_10_15_142": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "7_David Miller_67_M_2026_8_1_8_0_0_171": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "9_James Anderson_56_M_2026_8_1_8_10_0_146": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Emma Wilson_60_F_2026_8_1_8_15_5_160": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Bob Johnson_51_M_2026_8_1_9_20_10_136": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "10_Charlotte Thomas_36_F_2026_8_1_18_50_0_123": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "6_Sophia Davis_39_F_2026_8_1_18_55_10_151": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "8_Olivia Taylor_41_F_2026_8_1_19_10_0_128": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_John Doe_45_M_2026_8_1_19_20_10_126": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Alice Smith_32_F_2026_8_1_20_10_25_118": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "5_Michael Brown_28_M_2026_8_1_20_25_15_119": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "5_Michael Brown_28_M_2026_8_2_7_40_0_83": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Alice Smith_32_F_2026_8_2_7_55_10_87": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "8_Olivia Taylor_41_F_2026_8_2_8_0_0_95": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "10_Charlotte Thomas_36_F_2026_8_2_8_5_0_88": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_John Doe_45_M_2026_8_2_8_5_30_90": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "6_Sophia Davis_39_F_2026_8_2_8_15_20_99": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Bob Johnson_51_M_2026_8_2_18_45_30_162": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "9_James Anderson_56_M_2026_8_2_19_20_0_164": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Emma Wilson_60_F_2026_8_2_19_40_10_181": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "7_David Miller_67_M_2026_8_2_20_0_0_189": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "7_David Miller_67_M_2026_8_3_8_0_0_169": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "9_James Anderson_56_M_2026_8_3_8_10_0_143": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Emma Wilson_60_F_2026_8_3_8_15_5_156": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Bob Johnson_51_M_2026_8_3_8_30_20_139": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Alice Smith_32_F_2026_8_4_7_40_0_90": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_John Doe_45_M_2026_8_4_8_0_0_94": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Bob Johnson_51_M_2026_8_4_8_10_0_145": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Alice Smith_32_F_2026_8_4_14_20_0_116": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_John Doe_45_M_2026_8_4_20_10_0_129": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Bob Johnson_51_M_2026_8_4_20_20_0_170": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Alice Smith_32_F_2026_8_5_7_35_0_87": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_John Doe_45_M_2026_8_5_8_5_0_92": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Bob Johnson_51_M_2026_8_5_8_5_0_151": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_John Doe_45_M_2026_8_6_13_20_0_137": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Bob Johnson_51_M_2026_8_6_18_45_0_176": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Alice Smith_32_F_2026_8_6_19_10_0_112": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Alice Smith_32_F_2026_8_7_7_45_0_85": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_John Doe_45_M_2026_8_7_8_10_0_91": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Bob Johnson_51_M_2026_8_7_8_15_0_154": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Alice Smith_32_F_2026_8_8_20_0_0_110": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Bob Johnson_51_M_2026_8_8_20_15_0_181": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_John Doe_45_M_2026_8_8_20_30_0_131": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Alice Smith_32_F_2026_8_9_7_50_0_84": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_John Doe_45_M_2026_8_9_8_0_0_89": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Bob Johnson_51_M_2026_8_9_8_0_0_159": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Bob Johnson_51_M_2026_8_10_19_30_0_186": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_John Doe_45_M_2026_8_10_19_50_0_127": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Alice Smith_32_F_2026_8_10_20_5_0_108": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_11_7_30_0_137": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_11_7_30_0_116": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_11_7_30_0_114": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_11_7_30_0_101": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_11_19_30_0_155": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_11_19_30_0_131": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_11_19_30_0_136": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_11_19_30_0_109": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_12_7_30_0_153": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_12_7_30_0_130": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_12_7_30_0_132": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_12_7_30_0_107": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_12_19_30_0_171": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_12_19_30_0_145": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_12_19_30_0_157": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_12_19_30_0_115": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_13_7_30_0_172": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_13_7_30_0_143": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_13_7_30_0_155": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_13_7_30_0_109": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_13_19_30_0_185": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_13_19_30_0_153": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_13_19_30_0_182": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_13_19_30_0_116": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_14_7_30_0_182": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_14_7_30_0_156": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_14_7_30_0_173": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_14_7_30_0_111": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_14_19_30_0_200": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_14_19_30_0_170": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_14_19_30_0_190": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_14_19_30_0_117": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_15_7_30_0_202": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_15_7_30_0_173": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_15_7_30_0_186": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_15_7_30_0_117": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_15_19_30_0_219": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_15_19_30_0_181": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_15_19_30_0_207": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_15_19_30_0_128": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_16_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_16_7_30_0_177": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_16_7_30_0_197": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_16_7_30_0_129": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_16_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_16_19_30_0_187": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_16_19_30_0_218": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_16_19_30_0_140": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_17_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_17_7_30_0_190": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_17_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_17_7_30_0_136": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_17_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_17_19_30_0_201": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_17_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_17_19_30_0_145": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_18_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_18_7_30_0_197": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_18_7_30_0_212": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_18_7_30_0_145": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_18_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_18_19_30_0_209": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_18_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_18_19_30_0_149": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_19_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_19_7_30_0_210": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_19_7_30_0_212": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_19_7_30_0_150": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_19_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_19_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_19_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_19_19_30_0_160": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_20_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_20_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_20_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_20_7_30_0_156": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_20_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_20_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_20_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_20_19_30_0_164": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_21_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_21_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_21_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_21_7_30_0_163": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_21_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_21_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_21_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_21_19_30_0_170": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_22_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_22_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_22_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_22_7_30_0_164": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_22_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_22_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_22_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_22_19_30_0_173": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_23_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_23_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_23_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_23_7_30_0_175": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_23_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_23_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_23_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_23_19_30_0_185": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_24_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_24_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_24_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_24_7_30_0_183": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_24_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_24_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_24_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_24_19_30_0_194": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_25_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_25_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_25_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_25_7_30_0_186": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_25_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_25_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_25_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_25_19_30_0_192": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_26_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_26_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_26_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_26_7_30_0_192": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_26_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_26_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_26_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_26_19_30_0_199": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_27_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_27_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_27_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_27_7_30_0_194": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_27_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_27_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_27_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_27_19_30_0_206": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_28_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_28_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_28_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_28_7_30_0_204": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_28_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_28_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_28_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_28_19_30_0_212": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_29_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_29_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_29_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_29_7_30_0_208": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_29_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_29_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_29_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_29_19_30_0_217": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_30_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_30_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_30_7_30_0_211": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_30_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_30_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_30_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_30_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_30_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_31_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_31_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_31_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_8_31_7_30_0_214": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_31_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_31_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_31_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_8_31_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_1_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_1_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_1_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_1_7_30_0_212": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_1_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_1_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_1_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_1_19_30_0_219": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_2_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_2_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_2_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_2_7_30_0_215": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_2_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_2_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_2_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_2_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_3_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_3_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_3_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_3_7_30_0_214": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_3_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_3_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_3_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_3_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_4_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_4_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_4_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_4_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_4_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_4_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_4_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_4_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_5_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_5_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_5_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_5_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_5_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_5_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_5_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_5_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_6_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_6_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_6_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_6_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_6_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_6_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_6_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_6_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_7_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_7_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_7_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_7_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_7_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_7_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_7_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_7_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_8_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_8_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_8_7_30_0_215": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_8_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_8_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_8_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_8_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_8_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_9_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_9_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_9_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_9_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_9_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_9_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_9_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_9_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_10_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_10_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_10_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_10_7_30_0_215": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_10_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_10_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_10_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_10_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_11_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_11_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_11_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_11_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_11_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_11_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_11_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_11_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_12_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_12_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_12_7_30_0_211": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_12_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_12_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_12_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_12_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_12_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_13_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_13_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_13_7_30_0_211": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_13_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_13_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_13_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_13_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_13_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_14_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_14_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_14_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_14_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_14_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_14_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_14_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_14_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_15_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_15_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_15_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_15_7_30_0_213": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_15_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_15_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_15_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_15_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_16_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_16_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_16_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_16_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_16_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_16_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_16_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_16_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_17_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_17_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_17_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_17_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_17_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_17_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_17_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_17_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_18_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_18_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_18_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_18_7_30_0_214": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_18_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_18_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_18_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_18_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_19_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_19_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_19_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "4_Wife_33_F_2026_9_19_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_19_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_19_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_19_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "4_Wife_33_F_2026_9_19_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_11_7_30_0_144": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_11_19_30_0_157": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_12_7_30_0_154": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_12_19_30_0_167": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_13_7_30_0_164": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_13_19_30_0_186": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_14_7_30_0_184": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_14_19_30_0_197": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_15_7_30_0_199": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_15_19_30_0_214": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_8_16_7_30_0_211": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_17_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_19_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_20_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_21_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_22_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_23_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_24_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_25_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_26_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_8_27_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_1_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_2_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_7_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_8_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_10_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_11_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_12_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_14_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_15_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_16_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_19_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_20_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_20_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_21_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_21_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_22_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_22_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_23_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_23_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_24_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_24_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_25_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_25_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_26_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_26_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_27_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_27_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_28_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_28_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "1_Father_48_M_2026_9_29_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "1_Father_48_M_2026_9_29_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_11_7_30_0_116": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_11_19_30_0_139": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_12_7_30_0_145": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_12_19_30_0_163": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_13_7_30_0_165": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_13_19_30_0_188": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_14_7_30_0_184": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_14_19_30_0_208": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_15_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_15_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_16_7_30_0_211": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_16_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_8_17_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_18_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_19_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_20_7_30_0_210": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_22_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_24_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_25_7_30_0_215": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_26_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_28_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_8_30_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_1_7_30_0_210": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_3_7_30_0_214": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_4_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_5_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_8_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_9_7_30_0_212": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_10_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_11_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_12_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_13_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_14_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_16_7_30_0_210": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_17_7_30_0_211": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_18_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_19_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_20_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_20_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_21_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_21_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_22_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_22_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_23_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_23_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_24_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_24_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_25_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_25_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_26_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_26_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_27_7_30_0_215": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_27_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_28_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_28_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "3_Husband_35_M_2026_9_29_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "3_Husband_35_M_2026_9_29_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_11_7_30_0_113": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_11_19_30_0_127": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_12_7_30_0_126": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_12_19_30_0_139": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_13_7_30_0_137": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_13_19_30_0_147": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_14_7_30_0_143": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_14_19_30_0_156": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_15_7_30_0_153": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_15_19_30_0_165": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_16_7_30_0_164": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_16_19_30_0_173": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_17_7_30_0_173": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_17_19_30_0_187": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_18_7_30_0_189": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_18_19_30_0_202": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_19_7_30_0_198": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_19_19_30_0_206": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_20_7_30_0_207": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_20_19_30_0_216": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_8_21_7_30_0_211": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_22_7_30_0_215": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_23_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_26_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_27_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_29_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_30_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_8_31_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_1_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_3_7_30_0_218": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_6_7_30_0_215": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_7_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_10_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_11_7_30_0_215": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_12_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_13_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_15_7_30_0_215": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_16_7_30_0_215": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_17_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_18_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_19_7_30_0_215": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_20_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_20_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_21_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_21_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_22_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_22_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_23_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_23_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_24_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_24_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_25_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_25_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_26_7_30_0_217": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_26_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_27_7_30_0_216": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_27_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_28_7_30_0_219": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_28_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    },
+    "2_Mother_45_F_2026_9_29_7_30_0_220": {
+        "consumed_sugar_last_6_hours": false
+    },
+    "2_Mother_45_F_2026_9_29_19_30_0_220": {
+        "consumed_sugar_last_6_hours": true
+    }
+}

@@ -1,0 +1,25 @@
+MeasurementID,PatientID,Name,Age,Sex,Year,Month,Day,Hour,Minute,Second,Glucose,ConsumedSugarLast6Hours
+1,2,Alice Smith,32,F,2026,8,4,7,40,0,90,NO
+2,1,John Doe,45,M,2026,8,4,8,0,0,94,NO
+3,3,Bob Johnson,51,M,2026,8,4,8,10,0,145,NO
+4,2,Alice Smith,32,F,2026,8,4,14,20,0,116,YES
+5,1,John Doe,45,M,2026,8,4,20,10,0,129,YES
+6,3,Bob Johnson,51,M,2026,8,4,20,20,0,170,YES
+7,2,Alice Smith,32,F,2026,8,5,7,35,0,87,NO
+8,1,John Doe,45,M,2026,8,5,8,5,0,92,NO
+9,3,Bob Johnson,51,M,2026,8,5,8,5,0,151,NO
+10,1,John Doe,45,M,2026,8,6,13,20,0,137,YES
+11,3,Bob Johnson,51,M,2026,8,6,18,45,0,176,YES
+12,2,Alice Smith,32,F,2026,8,6,19,10,0,112,YES
+13,2,Alice Smith,32,F,2026,8,7,7,45,0,85,NO
+14,1,John Doe,45,M,2026,8,7,8,10,0,91,NO
+15,3,Bob Johnson,51,M,2026,8,7,8,15,0,154,NO
+16,2,Alice Smith,32,F,2026,8,8,20,0,0,110,YES
+17,3,Bob Johnson,51,M,2026,8,8,20,15,0,181,YES
+18,1,John Doe,45,M,2026,8,8,20,30,0,131,YES
+19,2,Alice Smith,32,F,2026,8,9,7,50,0,84,NO
+20,1,John Doe,45,M,2026,8,9,8,0,0,89,NO
+21,3,Bob Johnson,51,M,2026,8,9,8,0,0,159,NO
+22,3,Bob Johnson,51,M,2026,8,10,19,30,0,186,YES
+23,1,John Doe,45,M,2026,8,10,19,50,0,127,YES
+24,2,Alice Smith,32,F,2026,8,10,20,5,0,108,YES

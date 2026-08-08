@@ -1,0 +1,60 @@
+PatientID,Name,Age,Sex,Year,Month,Day,Hour,Minute,Second,Glucose,ConsumedSugarLast6Hours
+1,John Doe,45,M,2026,7,30,08,00,00,92,NO
+1,John Doe,45,M,2026,7,30,13,15,20,138,YES
+1,John Doe,45,M,2026,7,31,08,10,15,96,NO
+1,John Doe,45,M,2026,8,1,19,20,10,126,YES
+1,John Doe,45,M,2026,8,2,08,05,30,90,NO
+
+2,Alice Smith,32,F,2026,7,30,07,45,00,88,NO
+2,Alice Smith,32,F,2026,7,30,14,30,15,121,YES
+2,Alice Smith,32,F,2026,7,31,08,00,00,90,NO
+2,Alice Smith,32,F,2026,8,1,20,10,25,118,YES
+2,Alice Smith,32,F,2026,8,2,07,55,10,87,NO
+
+3,Bob Johnson,51,M,2026,7,30,09,00,00,148,YES
+3,Bob Johnson,51,M,2026,7,31,09,10,15,142,NO
+3,Bob Johnson,51,M,2026,8,1,09,20,10,136,NO
+3,Bob Johnson,51,M,2026,8,2,18,45,30,162,YES
+3,Bob Johnson,51,M,2026,8,3,08,30,20,139,NO
+
+4,Emma Wilson,60,F,2026,7,30,08,15,05,172,YES
+4,Emma Wilson,60,F,2026,7,31,08,15,05,165,NO
+4,Emma Wilson,60,F,2026,8,1,08,15,05,160,NO
+4,Emma Wilson,60,F,2026,8,2,19,40,10,181,YES
+4,Emma Wilson,60,F,2026,8,3,08,15,05,156,NO
+
+5,Michael Brown,28,M,2026,7,30,07,30,00,84,NO
+5,Michael Brown,28,M,2026,7,30,21,15,30,115,YES
+5,Michael Brown,28,M,2026,7,31,07,35,00,86,NO
+5,Michael Brown,28,M,2026,8,1,20,25,15,119,YES
+5,Michael Brown,28,M,2026,8,2,07,40,00,83,NO
+
+6,Sophia Davis,39,F,2026,7,30,08,20,00,101,NO
+6,Sophia Davis,39,F,2026,7,30,15,50,30,145,YES
+6,Sophia Davis,39,F,2026,7,31,08,20,00,104,NO
+6,Sophia Davis,39,F,2026,8,1,18,55,10,151,YES
+6,Sophia Davis,39,F,2026,8,2,08,15,20,99,NO
+
+7,David Miller,67,M,2026,7,30,08,00,00,181,YES
+7,David Miller,67,M,2026,7,31,08,00,00,176,NO
+7,David Miller,67,M,2026,8,1,08,00,00,171,NO
+7,David Miller,67,M,2026,8,2,20,00,00,189,YES
+7,David Miller,67,M,2026,8,3,08,00,00,169,NO
+
+8,Olivia Taylor,41,F,2026,7,30,07,50,00,94,NO
+8,Olivia Taylor,41,F,2026,7,30,13,45,00,132,YES
+8,Olivia Taylor,41,F,2026,7,31,07,55,00,97,NO
+8,Olivia Taylor,41,F,2026,8,1,19,10,00,128,YES
+8,Olivia Taylor,41,F,2026,8,2,08,00,00,95,NO
+
+9,James Anderson,56,M,2026,7,30,08,10,00,155,YES
+9,James Anderson,56,M,2026,7,31,08,10,00,149,NO
+9,James Anderson,56,M,2026,8,1,08,10,00,146,NO
+9,James Anderson,56,M,2026,8,2,19,20,00,164,YES
+9,James Anderson,56,M,2026,8,3,08,10,00,143,NO
+
+10,Charlotte Thomas,36,F,2026,7,30,08,05,00,89,NO
+10,Charlotte Thomas,36,F,2026,7,30,14,10,00,126,YES
+10,Charlotte Thomas,36,F,2026,7,31,08,05,00,91,NO
+10,Charlotte Thomas,36,F,2026,8,1,18,50,00,123,YES
+10,Charlotte Thomas,36,F,2026,8,2,08,05,00,88,NO
