@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from 'express';
+import type { Request, Response, NextFunction } from 'express';
 import * as db from '../lib/db';
 
 export function getPatients(req: Request, res: Response, next: NextFunction) {

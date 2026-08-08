@@ -2,14 +2,34 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import path from 'path';
+import fs from 'fs';
 import patientRoutes from './routes/patient.routes';
 import deviceRoutes from './routes/device.routes';
 import analysisRoutes from './routes/analysis.routes';
 import { requestLogger } from './middleware/logger.middleware';
 import { errorHandler } from './middleware/error.middleware';
 
-// Load environment variables from the root workspace folder (.env)
-dotenv.config({ path: path.join(__dirname, '..', '..', '.env') });
+// Load environment variables from the root workspace folder (.env) using robust path discovery
+const envPaths = [
+  path.join(process.cwd(), '.env'),
+  path.join(process.cwd(), '..', '.env'),
+  path.join(__dirname, '..', '..', '.env'),
+  path.join(__dirname, '..', '..', '..', '..', '.env')
+];
+
+let loadedEnv = false;
+for (const envPath of envPaths) {
+  if (fs.existsSync(envPath)) {
+    dotenv.config({ path: envPath });
+    console.log(`[Env] Successfully loaded environment from: ${envPath}`);
+    loadedEnv = true;
+    break;
+  }
+}
+if (!loadedEnv) {
+  dotenv.config(); // fallback to default
+  console.log('[Env] Fallback to default dotenv config');
+}
 
 const app = express();
 const PORT = process.env.PORT || 3001;

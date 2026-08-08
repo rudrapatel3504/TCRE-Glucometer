@@ -1,4 +1,4 @@
-import { DeviceStatus } from '../../../shared/types';
+import type { DeviceStatus } from '../../../shared/types';
 
 export let deviceStatus: DeviceStatus = {
   connected: false,

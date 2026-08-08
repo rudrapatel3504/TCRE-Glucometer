@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from 'express';
+import type { Request, Response, NextFunction } from 'express';
 import * as deviceState from '../lib/deviceState';
 import * as db from '../lib/db';
 

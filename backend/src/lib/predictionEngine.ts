@@ -1,4 +1,4 @@
-import { AnalysisResult, RecommendationDetail, TrajectoryPathway, RecommendationForecast, TwinScenario, ScenarioRanking, PredictionEngineOutput } from '../../../shared/types';
+import type { AnalysisResult, RecommendationDetail, TrajectoryPathway, RecommendationForecast, TwinScenario, ScenarioRanking, PredictionEngineOutput } from '../../../shared/types';
 import { clamp, safeDivide, normalize, weightedAverage, confidenceNormalize } from './mathUtils';
 
 // Severity utility helper

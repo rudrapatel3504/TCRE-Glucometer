@@ -58,3 +58,15 @@ venv/
 
 # Coverage
 coverage/
+
+# TCRE Local Database files
+database/data/*.json
+database/data/*.csv
+
+# Private keys, certificates, secrets
+*.pem
+*.key
+*.pub
+.aws/
+credentials
+secrets*

@@ -1,4 +1,4 @@
-import { Measurement, AnalysisResult, MetricsOutput, LatentStatesOutput, RiskOutput, ExplainabilityOutput, TimelineNode, CompositeStateOutput, RecommendationDetail } from '../../../shared/types';
+import type { Measurement, AnalysisResult, MetricsOutput, LatentStatesOutput, RiskOutput, ExplainabilityOutput, TimelineNode, CompositeStateOutput, RecommendationDetail } from '../../../shared/types';
 import { clamp, safeDivide, normalize, weightedAverage, confidenceNormalize } from './mathUtils';
 
 /**

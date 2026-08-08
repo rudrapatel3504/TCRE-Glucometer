@@ -1,6 +1,6 @@
-import { Request, Response, NextFunction } from 'express';
+import type { Request, Response, NextFunction } from 'express';
 import { generateLocalAnalysis } from '../lib/clinicalEngine';
-import { Measurement } from '../../../shared/types';
+import type { Measurement } from '../../../shared/types';
 
 function parseDate(dateStr: string): string {
   try {
