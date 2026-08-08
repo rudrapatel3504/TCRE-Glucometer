@@ -90,3 +90,13 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
   const { path } = await params;
   return handleProxy(request, path.join("/"));
 }
+
+export async function OPTIONS(request: NextRequest, { params }: { params: Promise<{ path: string[] }> }) {
+  const { path } = await params;
+  return handleProxy(request, path.join("/"));
+}
+
+export async function HEAD(request: NextRequest, { params }: { params: Promise<{ path: string[] }> }) {
+  const { path } = await params;
+  return handleProxy(request, path.join("/"));
+}

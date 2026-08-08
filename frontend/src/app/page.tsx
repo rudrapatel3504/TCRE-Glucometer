@@ -154,7 +154,15 @@ export default function Home() {
         id="dashboard-content"
         className="flex-1 w-full max-w-7xl mx-auto p-4 md:p-6 flex flex-col gap-6"
       >
-        {/* Print-Only Report Header */}
+        {!mounted ? (
+          <div className="flex-grow flex flex-col items-center justify-center py-20 bg-bg-secondary border border-border-tertiary rounded-lg shadow-sm">
+            <div className="text-xs text-text-tertiary animate-pulse font-mono tracking-wider uppercase">
+              Initializing Clinical Intelligence Engine...
+            </div>
+          </div>
+        ) : (
+          <>
+            {/* Print-Only Report Header */}
         <div 
           id="print-report-header" 
           style={{ display: "none" }}

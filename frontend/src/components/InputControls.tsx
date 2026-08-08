@@ -30,9 +30,13 @@ export default function InputControls({
 
   // Manual Dialog State
   const [manualOpen, setManualOpen] = useState(false);
-  const [manualDate, setManualDate] = useState(() => new Date().toISOString().split("T")[0]);
+  const [manualDate, setManualDate] = useState("");
   const [manualGlucose, setManualGlucose] = useState("");
   const [manualError, setManualError] = useState("");
+
+  React.useEffect(() => {
+    setManualDate(new Date().toISOString().split("T")[0]);
+  }, []);
 
   // CSV Dialog State
   const [csvOpen, setCsvOpen] = useState(false);
