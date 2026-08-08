@@ -47,7 +47,7 @@ app.get('/api/health', (req, res) => {
 app.use(errorHandler);
 
 // Start Server
-app.listen(PORT, () => {
+app.listen(Number(PORT), '0.0.0.0', () => {
   console.log(`==================================================`);
   console.log(`  TCRE GLUCOMETER SYSTEM BACKEND RUNNING`);
   console.log(`  Port:        ${PORT}`);
