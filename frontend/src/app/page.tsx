@@ -137,6 +137,30 @@ export default function Home() {
     }
   };
 
+  // SSR guard: render loading skeleton until client-side mount completes
+  if (!mounted) {
+    return (
+      <div className="min-h-screen bg-bg-primary text-text-primary flex flex-col font-sans">
+        <PatientHeader
+          patient={patient}
+          analysis={analysis}
+          selectedWindow={selectedWindow}
+          onWindowChange={setSelectedWindow}
+          onRefresh={handleRefresh}
+          isLoading={isLoading}
+        />
+        <main className="flex-1 w-full max-w-7xl mx-auto p-4 md:p-6 flex flex-col gap-6">
+          <div className="flex-grow flex flex-col items-center justify-center py-20 bg-bg-secondary border border-border-tertiary rounded-lg shadow-sm">
+            <div className="text-xs text-text-tertiary animate-pulse font-mono tracking-wider uppercase">
+              Initializing Clinical Intelligence Engine...
+            </div>
+          </div>
+        </main>
+        <CustomToaster />
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-bg-primary text-text-primary flex flex-col font-sans">
       {/* Dynamic Header */}
@@ -154,17 +178,9 @@ export default function Home() {
         id="dashboard-content"
         className="flex-1 w-full max-w-7xl mx-auto p-4 md:p-6 flex flex-col gap-6"
       >
-        {!mounted ? (
-          <div className="flex-grow flex flex-col items-center justify-center py-20 bg-bg-secondary border border-border-tertiary rounded-lg shadow-sm">
-            <div className="text-xs text-text-tertiary animate-pulse font-mono tracking-wider uppercase">
-              Initializing Clinical Intelligence Engine...
-            </div>
-          </div>
-        ) : (
-          <>
             {/* Print-Only Report Header */}
-        <div 
-          id="print-report-header" 
+        <div
+          id="print-report-header"
           style={{ display: "none" }}
           className="w-full bg-bg-secondary border border-border-tertiary p-5 mb-4 rounded-lg text-center"
         >
@@ -464,8 +480,6 @@ export default function Home() {
 
             {/* Bottom Actions: Export Report, Details, Settings */}
             <ActionFooter patient={patient} analysis={analysis} />
-          </>
-        )}
       </main>
 
       {/* Toast Alert Popups */}
