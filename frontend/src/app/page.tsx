@@ -480,6 +480,8 @@ export default function Home() {
 
             {/* Bottom Actions: Export Report, Details, Settings */}
             <ActionFooter patient={patient} analysis={analysis} />
+          </>
+                )}
       </main>
 
       {/* Toast Alert Popups */}
