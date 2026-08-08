@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { PatientRecord, AnalysisResult } from "../store/useTCREStore";
 import { Button } from "./ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
@@ -25,6 +25,11 @@ export default function PatientHeader({
   isLoading,
 }: PatientHeaderProps) {
   const [refreshing, setRefreshing] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const handleRefreshClick = () => {
     setRefreshing(true);
@@ -37,6 +42,7 @@ export default function PatientHeader({
 
   const formatDate = (dateStr?: string) => {
     if (!dateStr) return "";
+    if (!mounted) return "";
     const options: Intl.DateTimeFormatOptions = { year: "numeric", month: "short", day: "numeric" };
     return new Date(dateStr).toLocaleDateString(undefined, options);
   };

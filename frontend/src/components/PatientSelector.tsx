@@ -8,7 +8,12 @@ export default function PatientSelector() {
   const { uploadedPatients, selectedPatientId, selectPatient, units, deletePatientFromServer } = useTCREStore();
   const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
+  const [mounted, setMounted] = useState(false);
   const itemsPerPage = 8; // keeps layout tidy and performant
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Filter patients based on search
   const filteredPatients = useMemo(() => {
@@ -35,6 +40,7 @@ export default function PatientSelector() {
 
   const formatDate = (isoString: string) => {
     if (!isoString) return "N/A";
+    if (!mounted) return "";
     try {
       const d = new Date(isoString);
       return d.toLocaleDateString(undefined, {

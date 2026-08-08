@@ -2,13 +2,34 @@ import fs from 'fs';
 import path from 'path';
 import type { PatientData, Measurement, ImportLog } from '../../../shared/types';
 
-// Read DB path from environment variables, fallback to relative path
-const DATA_DIR = process.env.LOCAL_DB_DIR 
-  ? path.resolve(process.env.LOCAL_DB_DIR) 
-  : (fs.existsSync(path.join(process.cwd(), '..', 'database', 'data'))
-      ? path.join(process.cwd(), '..', 'database', 'data')
-      : path.join(__dirname, '..', '..', '..', 'database', 'data'));
+// Read DB path from environment variables, fallback to relative path using robust path discovery
+const getDbDir = (): string => {
+  if (process.env.LOCAL_DB_DIR) {
+    return path.resolve(process.env.LOCAL_DB_DIR);
+  }
+  
+  const possiblePaths = [
+    // Current working directory matches repo root
+    path.join(process.cwd(), 'database', 'data'),
+    // Current working directory matches backend/
+    path.join(process.cwd(), '..', 'database', 'data'),
+    // From built file (dist/backend/src/lib/db.js) -> workspace root database/data (up 5 levels)
+    path.join(__dirname, '..', '..', '..', '..', '..', 'database', 'data'),
+    // From source file (backend/src/lib/db.ts) -> workspace root database/data (up 3 levels)
+    path.join(__dirname, '..', '..', '..', 'database', 'data')
+  ];
 
+  for (const p of possiblePaths) {
+    if (fs.existsSync(p)) {
+      return p;
+    }
+  }
+
+  // Fallback
+  return path.join(process.cwd(), 'database', 'data');
+};
+
+const DATA_DIR = getDbDir();
 const PATIENTS_DB_PATH = path.join(DATA_DIR, 'patient_db.json');
 const LOGS_DB_PATH = path.join(DATA_DIR, 'import_logs.json');
 

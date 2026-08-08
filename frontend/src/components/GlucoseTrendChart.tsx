@@ -71,19 +71,19 @@ export default function GlucoseTrendChart({ measurements, isLoading }: GlucoseTr
 
       return {
         ...item,
-        displayDate: new Date(item.date).toLocaleDateString(undefined, {
+        displayDate: isClient ? new Date(item.date).toLocaleDateString(undefined, {
           month: "short",
           day: "numeric",
-        }),
+        }) : "",
         glucose: convertValue(item.glucose),
         rolling7d: rolling7dMg !== undefined ? convertValue(rolling7dMg) : undefined,
       };
     });
-  }, [measurements, isMmol]);
+  }, [measurements, isMmol, isClient]);
 
   // Statistics summaries
   const stats = useMemo(() => {
-    if (measurements.length === 0) return null;
+    if (measurements.length === 0 || !isClient) return null;
     const glucoses = measurements.map((m) => m.glucose);
     const sum = glucoses.reduce((a, b) => a + b, 0);
     const avg = Math.round(sum / measurements.length);
@@ -113,7 +113,7 @@ export default function GlucoseTrendChart({ measurements, isLoading }: GlucoseTr
       latestValue: convertValue(latest.glucose),
       latestTimeAgo: timeAgoStr,
     };
-  }, [measurements, isMmol]);
+  }, [measurements, isMmol, isClient]);
 
   const handlePointClick = (state: any) => {
     if (state && state.activePayload && state.activePayload.length > 0) {

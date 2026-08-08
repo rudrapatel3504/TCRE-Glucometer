@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import { useTCREStore } from "../store/useTCREStore";
 import { Clock, Heart, Award, ShieldAlert, ArrowDown, ChevronRight, Activity } from "lucide-react";
 
@@ -13,6 +13,11 @@ export default function PatientTimeline() {
 
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
   const [visibleCount, setVisibleCount] = useState(15);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   if (!selectedPatient) return null;
 
@@ -28,6 +33,7 @@ export default function PatientTimeline() {
   }, [sortedMeasurements, visibleCount]);
 
   const formatDate = (isoString: string) => {
+    if (!mounted) return "";
     try {
       const d = new Date(isoString);
       return d.toLocaleDateString(undefined, {
@@ -41,6 +47,7 @@ export default function PatientTimeline() {
   };
 
   const formatTime = (isoString: string) => {
+    if (!mounted) return "";
     try {
       const d = new Date(isoString);
       return d.toLocaleTimeString(undefined, {

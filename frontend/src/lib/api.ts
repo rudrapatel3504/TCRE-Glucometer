@@ -1,7 +1,7 @@
 import { useTCREStore, Measurement, AnalysisResult, MetricsOutput, LatentStatesOutput, RiskOutput, ExplainabilityOutput, TimelineNode, CompositeStateOutput, RecommendationDetail } from '../store/useTCREStore';
 import { clamp, safeDivide, normalize, weightedAverage, confidenceNormalize } from './mathUtils';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
+const API_BASE = "";
 
 /**
  * Normalizes/parses Date input into YYYY-MM-DD

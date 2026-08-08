@@ -60,8 +60,11 @@ export default function Home() {
     addManualMeasurement,
   } = useTCREStore();
 
+  const [mounted, setMounted] = useState(false);
+
   // Load timeline and patients on client side mount to avoid SSR hydration mismatch
   useEffect(() => {
+    setMounted(true);
     fetchPatientsFromServer();
 
     if (typeof window !== 'undefined') {
@@ -178,8 +181,8 @@ export default function Home() {
             </div>
             <div>
               <span className="text-text-tertiary">Generated At:</span>
-              <strong className="block text-text-primary font-mono" suppressHydrationWarning>
-                {new Date().toLocaleString()}
+              <strong className="block text-text-primary font-mono">
+                {mounted ? new Date().toLocaleString() : ""}
               </strong>
             </div>
           </div>

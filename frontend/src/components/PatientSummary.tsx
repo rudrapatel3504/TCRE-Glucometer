@@ -1,11 +1,16 @@
 "use client";
 
-import React, { useMemo } from "react";
+import React, { useMemo, useState, useEffect } from "react";
 import { useTCREStore } from "../store/useTCREStore";
 import { User, Activity, Calendar, FileText, HeartPulse, RefreshCw } from "lucide-react";
 
 export default function PatientSummary() {
   const { uploadedPatients, selectedPatientId, units } = useTCREStore();
+
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const selectedPatient = useMemo(() => {
     return uploadedPatients.find(p => p.patientId === selectedPatientId) || null;
@@ -17,6 +22,7 @@ export default function PatientSummary() {
 
   const formatDate = (isoString: string) => {
     if (!isoString) return "N/A";
+    if (!mounted) return "";
     try {
       const d = new Date(isoString);
       return d.toLocaleDateString(undefined, {
@@ -108,7 +114,7 @@ export default function PatientSummary() {
           <div className="truncate">
             <span className="block font-bold uppercase text-[10px] text-text-tertiary">Latest Timestamp</span>
             <span className="font-semibold text-text-secondary font-mono text-xs truncate">
-              {new Date(selectedPatient.latestMeasurementDate).toLocaleDateString()}
+              {mounted && selectedPatient.latestMeasurementDate ? new Date(selectedPatient.latestMeasurementDate).toLocaleDateString() : ""}
             </span>
           </div>
         </div>

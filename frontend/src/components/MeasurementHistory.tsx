@@ -23,6 +23,11 @@ export default function MeasurementHistory() {
     setCurrentPage(1);
   }, [searchQuery, filterSugar, sortKey, sortDirection]);
 
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   if (!selectedPatient) return null;
 
   const measurements = selectedPatient.measurements;
@@ -116,6 +121,7 @@ export default function MeasurementHistory() {
   };
 
   const formatDate = (isoString: string) => {
+    if (!mounted) return "";
     try {
       const d = new Date(isoString);
       return d.toLocaleDateString(undefined, {
@@ -129,6 +135,7 @@ export default function MeasurementHistory() {
   };
 
   const formatTime = (isoString: string) => {
+    if (!mounted) return "";
     try {
       const d = new Date(isoString);
       return d.toLocaleTimeString(undefined, {

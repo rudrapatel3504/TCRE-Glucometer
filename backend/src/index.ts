@@ -35,8 +35,33 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // CORS setup
-const corsOptions = {
-  origin: process.env.CORS_ORIGIN || 'http://localhost:3000',
+const corsOptions: cors.CorsOptions = {
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like mobile apps, curl, or server-to-server requests)
+    if (!origin) return callback(null, true);
+
+    const allowedOrigins = [
+      'http://localhost:3000',
+      'http://127.0.0.1:3000',
+      'http://localhost:3001',
+      'http://127.0.0.1:3001'
+    ];
+
+    if (process.env.CORS_ORIGIN) {
+      const envOrigins = process.env.CORS_ORIGIN.split(',').map(o => o.trim());
+      allowedOrigins.push(...envOrigins);
+    }
+
+    const isAllowed = allowedOrigins.includes(origin) || 
+                      allowedOrigins.includes('*') ||
+                      origin.endsWith('.vercel.app');
+
+    if (isAllowed) {
+      callback(null, true);
+    } else {
+      callback(new Error(`Origin ${origin} not allowed by CORS`));
+    }
+  },
   methods: ['GET', 'POST', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
