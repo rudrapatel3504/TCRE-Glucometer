@@ -14,7 +14,33 @@ export function ingestMeasurements(req: Request, res: Response, next: NextFuncti
   try {
     const body = req.body;
     if (!Array.isArray(body)) {
-      res.status(400).json({ success: false, error: 'Invalid payload: expected an array of measurements' });
+      if (body && body.patientId && body.name) {
+        const patients = db.getPatients();
+        if (patients.some(p => p.patientId === body.patientId)) {
+          res.status(400).json({ success: false, error: 'Patient ID already exists' });
+          return;
+        }
+        const newPatient = {
+          patientId: body.patientId,
+          name: body.name,
+          age: Number(body.age || 0),
+          sex: body.sex || 'Unknown',
+          measurements: [],
+          firstMeasurementDate: '',
+          latestMeasurementDate: '',
+          latestGlucose: 0,
+          sugarYesCount: 0,
+          sugarNoCount: 0,
+        };
+        patients.push(newPatient);
+        db.savePatients(patients);
+        res.json({
+          success: true,
+          patients,
+        });
+        return;
+      }
+      res.status(400).json({ success: false, error: 'Invalid payload: expected an array of measurements or patient details' });
       return;
     }
     const result = db.ingestMeasurements(body);

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useMemo } from "react";
 import { Measurement } from "../store/useTCREStore";
 import { parseCsvString } from "../lib/api";
 import { Button } from "./ui/button";
@@ -13,10 +13,10 @@ import {
   DialogTrigger,
 } from "./ui/dialog";
 import { useTCREStore } from "../store/useTCREStore";
-import { Plus, Upload, RefreshCw, AlertTriangle, FileSpreadsheet, Calendar, Activity, Cpu, ShieldCheck } from "lucide-react";
+import { Plus, Upload, RefreshCw, AlertTriangle, FileSpreadsheet, Calendar, Activity, Cpu, ShieldCheck, User } from "lucide-react";
 
 interface InputControlsProps {
-  onMeasurementAdd: (measurement: Measurement) => void;
+  onMeasurementAdd: (measurement: Measurement, patientId?: string) => void;
   onCsvUpload: (measurements: Measurement[]) => void;
   isLoading: boolean;
 }
@@ -27,6 +27,9 @@ export default function InputControls({
   isLoading,
 }: InputControlsProps) {
   const showToast = useTCREStore((state) => state.showToast);
+  const uploadedPatients = useTCREStore((state) => state.uploadedPatients);
+  const activeSelectedPatientId = useTCREStore((state) => state.selectedPatientId);
+  const createPatientOnServer = useTCREStore((state) => state.createPatientOnServer);
 
   // Manual Dialog State
   const [manualOpen, setManualOpen] = useState(false);
@@ -34,9 +37,118 @@ export default function InputControls({
   const [manualGlucose, setManualGlucose] = useState("");
   const [manualError, setManualError] = useState("");
 
+  // Patient Search / Select State
+  const [targetPatientId, setTargetPatientId] = useState("");
+  const [patientSearchQuery, setPatientSearchQuery] = useState("");
+  const [showDropdown, setShowDropdown] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // New Patient Creation State
+  const [isCreatingPatient, setIsCreatingPatient] = useState(false);
+  const [newPatientName, setNewPatientName] = useState("");
+  const [newPatientAge, setNewPatientAge] = useState("");
+  const [newPatientSex, setNewPatientSex] = useState("Female");
+  const [newPatientError, setNewPatientError] = useState("");
+  const [isRegistering, setIsRegistering] = useState(false);
+
+  // Initialize/reset states when dialog opens or selected patient changes
   React.useEffect(() => {
-    setManualDate(new Date().toISOString().split("T")[0]);
+    if (manualOpen) {
+      if (activeSelectedPatientId) {
+        const found = uploadedPatients.find(p => p.patientId === activeSelectedPatientId);
+        if (found) {
+          setTargetPatientId(found.patientId);
+          setPatientSearchQuery(`${found.name} — ${found.patientId}`);
+        } else {
+          setTargetPatientId("");
+          setPatientSearchQuery("");
+        }
+      } else {
+        setTargetPatientId("");
+        setPatientSearchQuery("");
+      }
+      setIsCreatingPatient(false);
+      setNewPatientName("");
+      setNewPatientAge("");
+      setNewPatientSex("Female");
+      setNewPatientError("");
+      setManualError("");
+      setManualGlucose("");
+      setManualDate(new Date().toISOString().split("T")[0]);
+    }
+  }, [manualOpen, activeSelectedPatientId, uploadedPatients]);
+
+  // Click outside to close searchable dropdown
+  React.useEffect(() => {
+    const handleOutsideClick = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setShowDropdown(false);
+      }
+    };
+    document.addEventListener("mousedown", handleOutsideClick);
+    return () => document.removeEventListener("mousedown", handleOutsideClick);
   }, []);
+
+  // Filter patients based on search input
+  const filteredPatientsForSelect = useMemo(() => {
+    const query = patientSearchQuery.trim().toLowerCase();
+    const selectedPatient = uploadedPatients.find(p => p.patientId === targetPatientId);
+    const selectedTag = selectedPatient ? `${selectedPatient.name} — ${selectedPatient.patientId}`.toLowerCase() : "";
+    
+    if (!query || query === selectedTag) {
+      return uploadedPatients;
+    }
+    
+    return uploadedPatients.filter(
+      (p) =>
+        p.name.toLowerCase().includes(query) ||
+        p.patientId.toLowerCase().includes(query)
+    );
+  }, [uploadedPatients, patientSearchQuery, targetPatientId]);
+
+  // Handle registering new patient
+  const handleCreatePatient = async (e: React.MouseEvent) => {
+    e.preventDefault();
+    setNewPatientError("");
+
+    if (!newPatientName.trim()) {
+      setNewPatientError("Name cannot be empty.");
+      return;
+    }
+
+    const ageVal = parseInt(newPatientAge, 10);
+    if (isNaN(ageVal) || ageVal < 1 || ageVal > 120) {
+      setNewPatientError("Please enter a valid age (1-120).");
+      return;
+    }
+
+    setIsRegistering(true);
+
+    let newId = "";
+    let attempts = 0;
+    do {
+      newId = `P-${Math.floor(10000 + Math.random() * 90000)}`;
+      attempts++;
+    } while (uploadedPatients.some(p => p.patientId === newId) && attempts < 100);
+
+    const success = await createPatientOnServer({
+      name: newPatientName,
+      age: ageVal,
+      sex: newPatientSex,
+      patientId: newId,
+    });
+
+    setIsRegistering(false);
+
+    if (success) {
+      setTargetPatientId(newId);
+      setPatientSearchQuery(`${newPatientName} — ${newId}`);
+      setIsCreatingPatient(false);
+      setNewPatientName("");
+      setNewPatientAge("");
+      setNewPatientSex("Female");
+    }
+  };
 
   // CSV Dialog State
   const [csvOpen, setCsvOpen] = useState(false);
@@ -120,6 +232,11 @@ export default function InputControls({
     e.preventDefault();
     setManualError("");
 
+    if (!targetPatientId) {
+      setManualError("Please select a patient first.");
+      return;
+    }
+
     const val = parseInt(manualGlucose, 10);
     if (isNaN(val) || val < 50 || val > 600) {
       setManualError("Glucose measurement must be between 50 and 600 mg/dL.");
@@ -135,7 +252,7 @@ export default function InputControls({
       date: manualDate,
       glucose: val,
       source: "manual",
-    });
+    }, targetPatientId);
 
     showToast(`Added manual reading: ${val} mg/dL`, "success");
     setManualGlucose("");
@@ -197,47 +314,182 @@ export default function InputControls({
             </DialogDescription>
           </DialogHeader>
 
-          <form onSubmit={handleManualSubmit} className="space-y-4 mt-4">
-            <div className="flex flex-col gap-1.5">
-              <label className="text-xs font-semibold text-text-secondary flex items-center gap-1">
-                <Calendar className="w-3.5 h-3.5 text-text-tertiary" /> Date of Reading
-              </label>
-              <input
-                type="date"
-                value={manualDate}
-                onChange={(e) => setManualDate(e.target.value)}
-                className="w-full text-sm bg-bg-secondary border border-border-secondary rounded px-3 py-2 text-text-primary focus:outline-none focus:ring-1 focus:ring-text-info"
-                required
-              />
-            </div>
-
-            <div className="flex flex-col gap-1.5">
-              <label className="text-xs font-semibold text-text-secondary flex items-center gap-1">
-                <Activity className="w-3.5 h-3.5 text-text-tertiary" /> Glucose Level (mg/dL)
-              </label>
-              <input
-                type="number"
-                min="50"
-                max="600"
-                value={manualGlucose}
-                onChange={(e) => setManualGlucose(e.target.value)}
-                placeholder="e.g. 120"
-                className="w-full text-sm bg-bg-secondary border border-border-secondary rounded px-3 py-2 text-text-primary focus:outline-none focus:ring-1 focus:ring-text-info"
-                required
-              />
-            </div>
-
-            {manualError && (
-              <div className="flex items-center gap-2 p-2.5 rounded bg-text-danger/10 text-text-danger text-xs border border-text-danger/15">
-                <AlertTriangle className="w-4 h-4 flex-shrink-0" />
-                <span>{manualError}</span>
+          {isCreatingPatient ? (
+            <div className="space-y-4 mt-4 border border-border-secondary p-4 rounded bg-bg-secondary/45">
+              <div className="flex justify-between items-center pb-2 border-b border-border-tertiary">
+                <h4 className="text-xs font-bold text-text-primary uppercase tracking-wider">Register New Patient</h4>
+                <button
+                  type="button"
+                  onClick={() => setIsCreatingPatient(false)}
+                  className="text-xs text-text-secondary hover:text-text-primary bg-transparent border-0 cursor-pointer"
+                >
+                  Cancel
+                </button>
               </div>
-            )}
 
-            <Button type="submit" className="w-full h-10 text-xs font-bold bg-text-info hover:bg-text-info/90 text-white">
-              Add Measurement
-            </Button>
-          </form>
+              <div className="flex flex-col gap-1.5">
+                <label className="text-[10px] font-bold text-text-secondary uppercase">Full Name</label>
+                <input
+                  type="text"
+                  placeholder="e.g. John Smith"
+                  value={newPatientName}
+                  onChange={(e) => setNewPatientName(e.target.value)}
+                  className="w-full text-sm bg-bg-primary border border-border-secondary rounded px-3 py-1.5 text-text-primary focus:outline-none focus:ring-1 focus:ring-text-info"
+                  required
+                />
+              </div>
+
+              <div className="grid grid-cols-2 gap-3">
+                <div className="flex flex-col gap-1.5">
+                  <label className="text-[10px] font-bold text-text-secondary uppercase">Age</label>
+                  <input
+                    type="number"
+                    placeholder="e.g. 45"
+                    min="1"
+                    max="120"
+                    value={newPatientAge}
+                    onChange={(e) => setNewPatientAge(e.target.value)}
+                    className="w-full text-sm bg-bg-primary border border-border-secondary rounded px-3 py-1.5 text-text-primary focus:outline-none focus:ring-1 focus:ring-text-info"
+                    required
+                  />
+                </div>
+                <div className="flex flex-col gap-1.5">
+                  <label className="text-[10px] font-bold text-text-secondary uppercase">Biological Sex</label>
+                  <select
+                    value={newPatientSex}
+                    onChange={(e) => setNewPatientSex(e.target.value)}
+                    className="w-full text-sm bg-bg-primary border border-border-secondary rounded px-3 py-1.5 text-text-primary focus:outline-none focus:ring-1 focus:ring-text-info"
+                  >
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              {newPatientError && (
+                <div className="flex items-center gap-2 p-2 rounded bg-text-danger/10 text-text-danger text-[10px] border border-text-danger/15">
+                  <AlertTriangle className="w-3.5 h-3.5 flex-shrink-0" />
+                  <span>{newPatientError}</span>
+                </div>
+              )}
+
+              <Button
+                type="button"
+                onClick={handleCreatePatient}
+                disabled={isRegistering}
+                className="w-full h-10 text-xs font-bold bg-text-info hover:bg-text-info/90 text-white cursor-pointer"
+              >
+                {isRegistering ? "Registering..." : "Create & Select Patient"}
+              </Button>
+            </div>
+          ) : (
+            <form onSubmit={handleManualSubmit} className="space-y-4 mt-4">
+              <div className="flex flex-col gap-1.5 relative" ref={dropdownRef}>
+                <div className="flex justify-between items-center">
+                  <label className="text-xs font-semibold text-text-secondary flex items-center gap-1">
+                    <User className="w-3.5 h-3.5 text-text-tertiary" /> Select Patient
+                  </label>
+                  <button
+                    type="button"
+                    onClick={() => setIsCreatingPatient(true)}
+                    className="text-[11px] font-bold text-text-info hover:underline flex items-center gap-0.5 p-0 bg-transparent border-0 cursor-pointer"
+                  >
+                    + Create New Patient
+                  </button>
+                </div>
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="Type to search patient..."
+                    value={patientSearchQuery}
+                    onChange={(e) => {
+                      setPatientSearchQuery(e.target.value);
+                      setShowDropdown(true);
+                      const selectedPatient = uploadedPatients.find(p => p.patientId === targetPatientId);
+                      const selectedTag = selectedPatient ? `${selectedPatient.name} — ${selectedPatient.patientId}` : "";
+                      if (e.target.value !== selectedTag) {
+                        setTargetPatientId("");
+                      }
+                    }}
+                    onFocus={() => setShowDropdown(true)}
+                    className="w-full text-sm bg-bg-secondary border border-border-secondary rounded px-3 py-2 text-text-primary focus:outline-none focus:ring-1 focus:ring-text-info pr-8"
+                    required
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setShowDropdown(!showDropdown)}
+                    className="absolute right-2 top-1/2 -translate-y-1/2 text-text-tertiary hover:text-text-primary p-1 bg-transparent border-0 cursor-pointer text-xs"
+                  >
+                    ▼
+                  </button>
+                </div>
+
+                {showDropdown && (
+                  <div className="absolute top-[100%] left-0 w-full bg-bg-primary border border-border-secondary rounded shadow-lg z-50 max-h-48 overflow-y-auto mt-1 divide-y divide-border-tertiary">
+                    {filteredPatientsForSelect.length === 0 ? (
+                      <div className="p-2.5 text-xs text-text-secondary text-center">No patients found</div>
+                    ) : (
+                      filteredPatientsForSelect.map((p) => (
+                        <div
+                          key={p.patientId}
+                          onClick={() => {
+                            setTargetPatientId(p.patientId);
+                            setPatientSearchQuery(`${p.name} — ${p.patientId}`);
+                            setShowDropdown(false);
+                          }}
+                          className="p-2.5 text-xs text-text-primary hover:bg-bg-secondary cursor-pointer transition-colors flex justify-between items-center"
+                        >
+                          <span className="font-semibold">{p.name}</span>
+                          <span className="font-mono text-text-secondary text-[10px]">{p.patientId}</span>
+                        </div>
+                      ))
+                    )}
+                  </div>
+                )}
+              </div>
+
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-semibold text-text-secondary flex items-center gap-1">
+                  <Calendar className="w-3.5 h-3.5 text-text-tertiary" /> Date of Reading
+                </label>
+                <input
+                  type="date"
+                  value={manualDate}
+                  onChange={(e) => setManualDate(e.target.value)}
+                  className="w-full text-sm bg-bg-secondary border border-border-secondary rounded px-3 py-2 text-text-primary focus:outline-none focus:ring-1 focus:ring-text-info"
+                  required
+                />
+              </div>
+
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-semibold text-text-secondary flex items-center gap-1">
+                  <Activity className="w-3.5 h-3.5 text-text-tertiary" /> Glucose Level (mg/dL)
+                </label>
+                <input
+                  type="number"
+                  min="50"
+                  max="600"
+                  value={manualGlucose}
+                  onChange={(e) => setManualGlucose(e.target.value)}
+                  placeholder="e.g. 120"
+                  className="w-full text-sm bg-bg-secondary border border-border-secondary rounded px-3 py-2 text-text-primary focus:outline-none focus:ring-1 focus:ring-text-info"
+                  required
+                />
+              </div>
+
+              {manualError && (
+                <div className="flex items-center gap-2 p-2.5 rounded bg-text-danger/10 text-text-danger text-xs border border-text-danger/15">
+                  <AlertTriangle className="w-4 h-4 flex-shrink-0" />
+                  <span>{manualError}</span>
+                </div>
+              )}
+
+              <Button type="submit" className="w-full h-10 text-xs font-bold bg-text-info hover:bg-text-info/90 text-white cursor-pointer">
+                Add Measurement
+              </Button>
+            </form>
+          )}
         </DialogContent>
       </Dialog>
 

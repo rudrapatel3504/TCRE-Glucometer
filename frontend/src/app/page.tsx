@@ -214,8 +214,8 @@ export default function Home() {
 
         {/* Manual entry / CSV uploads */}
         <InputControls
-          onMeasurementAdd={(m) => {
-            addManualMeasurement(m.glucose, m.date);
+          onMeasurementAdd={(m, patientId) => {
+            addManualMeasurement(m.glucose, m.date, patientId);
           }}
           onCsvUpload={(newMeasurements) => {
             uploadCsvMeasurements(newMeasurements);
@@ -480,6 +480,8 @@ export default function Home() {
 
             {/* Bottom Actions: Export Report, Details, Settings */}
             <ActionFooter patient={patient} analysis={analysis} />
+          </>
+        )}
       </main>
 
       {/* Toast Alert Popups */}
