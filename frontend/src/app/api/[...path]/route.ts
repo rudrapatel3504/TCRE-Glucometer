@@ -33,10 +33,16 @@ async function handleProxy(request: NextRequest, pathStr: string) {
   };
 
   // Only attach body if request method is not GET or HEAD
-  if (request.method !== "GET" && request.method !== "HEAD" && request.body) {
-    fetchOptions.body = request.body;
-    // @ts-ignore
-    fetchOptions.duplex = "half"; // Required for forwarding request.body streams in Node/Next
+  if (request.method !== "GET" && request.method !== "HEAD") {
+    const contentType = request.headers.get("content-type") || "";
+    if (contentType.includes("application/json")) {
+      const bodyText = await request.text();
+      fetchOptions.body = bodyText;
+    } else if (request.body) {
+      fetchOptions.body = request.body;
+      // @ts-ignore
+      fetchOptions.duplex = "half"; // Required for forwarding request.body streams in Node/Next
+    }
   }
 
   try {
