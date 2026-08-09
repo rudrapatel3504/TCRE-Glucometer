@@ -36,6 +36,7 @@ export default function InputControls({
   const [manualDate, setManualDate] = useState("");
   const [manualGlucose, setManualGlucose] = useState("");
   const [manualError, setManualError] = useState("");
+  const [manualSugar, setManualSugar] = useState<'YES' | 'NO'>("NO");
 
   // Patient Search / Select State
   const [targetPatientId, setTargetPatientId] = useState("");
@@ -74,6 +75,7 @@ export default function InputControls({
       setNewPatientError("");
       setManualError("");
       setManualGlucose("");
+      setManualSugar("NO");
       setManualDate(new Date().toISOString().split("T")[0]);
     }
   }, [manualOpen, activeSelectedPatientId, uploadedPatients]);
@@ -252,10 +254,12 @@ export default function InputControls({
       date: manualDate,
       glucose: val,
       source: "manual",
+      consumedSugarLast6Hours: manualSugar,
     }, targetPatientId);
 
     showToast(`Added manual reading: ${val} mg/dL`, "success");
     setManualGlucose("");
+    setManualSugar("NO");
     setManualOpen(false);
   };
 
@@ -476,6 +480,36 @@ export default function InputControls({
                   className="w-full text-sm bg-bg-secondary border border-border-secondary rounded px-3 py-2 text-text-primary focus:outline-none focus:ring-1 focus:ring-text-info"
                   required
                 />
+              </div>
+
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-semibold text-text-secondary flex items-center gap-1">
+                  <Activity className="w-3.5 h-3.5 text-text-tertiary" /> Sugar Intake (Last 6 Hours)
+                </label>
+                <div className="flex items-center gap-6 mt-1.5">
+                  <label className="flex items-center gap-2 text-sm text-text-primary cursor-pointer select-none">
+                    <input
+                      type="radio"
+                      name="manualSugar"
+                      value="YES"
+                      checked={manualSugar === "YES"}
+                      onChange={() => setManualSugar("YES")}
+                      className="w-4 h-4 accent-text-info cursor-pointer"
+                    />
+                    <span>Yes, Consumed Sugar</span>
+                  </label>
+                  <label className="flex items-center gap-2 text-sm text-text-primary cursor-pointer select-none">
+                    <input
+                      type="radio"
+                      name="manualSugar"
+                      value="NO"
+                      checked={manualSugar === "NO"}
+                      onChange={() => setManualSugar("NO")}
+                      className="w-4 h-4 accent-text-info cursor-pointer"
+                    />
+                    <span>No Sugar Intake</span>
+                  </label>
+                </div>
               </div>
 
               {manualError && (

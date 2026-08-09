@@ -241,7 +241,7 @@ interface TCREStore {
   fetchPatientsFromServer: () => Promise<void>;
   uploadMeasurementsToServer: (measurements: any[]) => Promise<void>;
   uploadCsvMeasurements: (newMeasurements: any[]) => Promise<void>;
-  addManualMeasurement: (glucose: number, date: string, patientId?: string) => Promise<void>;
+  addManualMeasurement: (glucose: number, date: string, patientId?: string, consumedSugarLast6Hours?: 'YES' | 'NO') => Promise<void>;
   deletePatientFromServer: (patientId: string) => Promise<void>;
   deleteMeasurementFromServer: (patientId: string, date: string) => Promise<void>;
   createPatientOnServer: (patientData: { name: string; age: number; sex: string; patientId: string }) => Promise<boolean>;
@@ -583,7 +583,7 @@ export const useTCREStore = create<TCREStore>((set, get) => ({
       await get().uploadMeasurementsToServer(mapped);
     }
   },
-  addManualMeasurement: async (glucose, date, patientId) => {
+  addManualMeasurement: async (glucose, date, patientId, consumedSugarLast6Hours = "NO") => {
     const targetPatient = patientId 
       ? get().uploadedPatients.find(p => p.patientId === patientId)
       : get().patient;
@@ -600,7 +600,7 @@ export const useTCREStore = create<TCREStore>((set, get) => ({
       date: `${date}T12:00:00.000Z`,
       glucose,
       source: "manual",
-      consumedSugarLast6Hours: "NO"
+      consumedSugarLast6Hours: consumedSugarLast6Hours
     };
     await get().uploadMeasurementsToServer([measurement]);
     get().selectPatient(targetPatient.patientId);

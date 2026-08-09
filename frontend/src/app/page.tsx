@@ -215,7 +215,7 @@ export default function Home() {
         {/* Manual entry / CSV uploads */}
         <InputControls
           onMeasurementAdd={(m, patientId) => {
-            addManualMeasurement(m.glucose, m.date, patientId);
+            addManualMeasurement(m.glucose, m.date, patientId, m.consumedSugarLast6Hours);
           }}
           onCsvUpload={(newMeasurements) => {
             uploadCsvMeasurements(newMeasurements);
